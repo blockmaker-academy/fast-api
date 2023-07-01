@@ -1,4 +1,4 @@
-# FastAPI CRUD Exercises
+# Ejercicios CRUD FastAPI
 
 Este repositorio contiene ejercicios para aprender a crear una API CRUD utilizando FastAPI, un framework de desarrollo web rápido para construir APIs en Python.
 
