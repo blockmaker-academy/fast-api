@@ -75,7 +75,7 @@ def get_all_users(name: str = None, email: str = None, age: int = None):
 
 
 @app.get("/users/{user_id}")
-def get_user(user_id: int = None, email: str = None):
+def get_user(user_id: int = None):
     # Recuperamos el usuario de nuestra base de datos en memoria
     user = database.get(user_id)
     # Si hemos encontrado el usuario, lo develolvemos como respuesta
