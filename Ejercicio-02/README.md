@@ -1,4 +1,4 @@
-# Modificar las APIs para recuperar usuarios por query params
+# Ejercicio 2: Modificar las APIs para recuperar usuarios por query params
 
 1. Modificar la función get_all_users para permitir la recuperación de usuarios utilizando parámetros de consulta (query params) para filtrar por nombre y/o correo electrónico y/o edad.
 

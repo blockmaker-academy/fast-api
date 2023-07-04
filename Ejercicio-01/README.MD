@@ -1,4 +1,4 @@
-# Ejercicio: Generar un CRUD con FastAPI
+# Ejercicio 1: Generar un CRUD con FastAPI
 
 En este ejercicio, aprenderemos a crear un CRUD (Crear, Leer, Actualizar, Eliminar) utilizando FastAPI, un framework de desarrollo web rápido para construir APIs en Python.
 

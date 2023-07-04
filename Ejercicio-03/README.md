@@ -1,4 +1,5 @@
-Ejercicio 3: Validación de datos en la API
+# Ejercicio 3: Validación de datos en la API
+
 En este ejercicio, practicaremos la validación de datos en la API utilizando las herramientas proporcionadas por FastAPI y Pydantic.
 
 ### Pasos
