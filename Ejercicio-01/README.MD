@@ -96,6 +96,7 @@ database = {}
     id: int
     name: str
     email: str
+    age: str
   ```
 
 ### 8. Implementar operaciones CRUD:
@@ -188,9 +189,3 @@ uvicorn main:app --reload
 ### 11. Probar la API:
 
 - Dado que Fast API nos construye directamente una interfaz de swagger podemos ir a la ruta http://localhost:8000/docs y probar la api. Otra opcion es utilizar herramientas como Postman o un navegador web para enviar solicitudes HTTP a las rutas de tu API y verificar su funcionamiento.
-
-- Asegúrate de incluir los tokens de acceso en los encabezados de las solicitudes protegidas.
-
-```
-
-```
