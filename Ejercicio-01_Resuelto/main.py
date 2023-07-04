@@ -12,6 +12,7 @@ class User(BaseModel):
     id: int
     name: str
     email: str
+    age: int
 
 
 @app.get("/")
