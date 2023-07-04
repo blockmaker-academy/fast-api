@@ -48,4 +48,4 @@
 
 - Ahora, puedes hacer una solicitud GET a /users?name=John para obtener todos los usuarios con el nombre "John" o /users?email=test@example.com para obtener todos los usuarios con el correo electrónico "test@example.com" o /users?age=29 para obtener todos los usuarios con 29 de edad. También puedes combinar ambos parámetros de consulta para obtener resultados más específicos.
 
-- Prueba de realizar las llamadas tanto en el Swagger de la aplicación como en Postman
+- Prueba de realizar las llamadas tanto en el Swagger de la aplicación como en Postman (Ruta de ejemplo para postman: http://localhost:8000/users?name=juan&age=30)
