@@ -6,6 +6,7 @@ En este ejercicio, practicaremos la validación de datos en la API utilizando la
 1. Añade validaciones a los modelos de datos existentes. Por ejemplo, especifica que el campo "name" debe tener una longitud mínima y máxima, o que el campo "email" debe tener un formato de correo electrónico válido.
 
    ```python
+   # Añadimos las importaciones de constr y EmailStr para la validación
    from pydantic import BaseModel, constr, EmailStr
 
    class User(BaseModel):
