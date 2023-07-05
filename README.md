@@ -26,7 +26,14 @@ El repositorio está estructurado de la siguiente manera:
 A continuación se muestra una lista de los ejercicios incluidos en este repositorio:
 
 1. **Generar un CRUD con FastAPI**: Aprende a crear operaciones CRUD básicas (Crear, Leer, Actualizar, Eliminar) utilizando FastAPI.
+
 2. **Modificar las APIs para recuperar usuarios por query params**: Aprende a modificar las rutas y funciones para permitir la recuperación de usuarios utilizando parámetros de consulta para filtrar por nombre, correo electrónico y edad.
+
+3. **Validación de datos en la API y respuestas de error con códigos de estado**: Aprende a utilizar las herramientas proporcionadas por FastAPI y Pydantic para validar los datos enviados a través de la API y manejar las respuestas de error con códigos de estado correspondientes.
+
+4. **Mejorar documentación API con Swagger**: Aprende a mejorar la documentación de tu API utilizando herramientas como Swagger proporcionando descripciones claras y detalladas de los endpoints, parámetros y respuestas, con el objetivo de lograr una API bien documentada. Además, aprenderás a garantizar una documentación completa y precisa, facilitando así el uso y comprensión de tu API por parte de los desarrolladores y usuarios.
+
+5. **Despliegue de API en Deta Space**: Aprende cómo desplegar una API desarrollada con FastAPI en Deta Space. Deta Space es una plataforma en la nube que facilita el despliegue de aplicaciones web y APIs.
 
 Cada ejercicio cuenta con su propia carpeta en el repositorio que contiene un archivo README.md con las instrucciones detalladas. Sigue las instrucciones en cada carpeta de ejercicio para completar los ejercicios por tu cuenta. Además, puedes consultar la carpeta "Ejercicio_Resuelto" para ver una solución completa a cada ejercicio.
 
