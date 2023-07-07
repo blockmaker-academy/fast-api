@@ -167,16 +167,7 @@ database = {}
       return {"error": "Usuario no encontrado"}
     ```
 
-### 9. Iniciar la aplicación:
-
-- Agrega el siguiente código al final del archivo main.py:
-
-```python
-if **name** == "**main**":
-uvicorn.run(app, host="0.0.0.0", port=8000)
-```
-
-### 10. Ejecutar la aplicación:
+### 9. Ejecutar la aplicación:
 
 - En la terminal, ejecuta el siguiente comando para iniciar la aplicación:
 
