@@ -91,12 +91,11 @@ En este ejercicio, mejoraremos la documentación de nuestra API para lograr una 
 
     def get_all_users(
         # Añadimos una descripción y ejemplo de la query name
-        name: str = Query(description="Nombre del usuario", example="John"),
+        name: str = Query(description="Nombre del usuario", example="John", default=None),
         # Añadimos una descripción y ejemplo de la query email
-        email: str = Query(description="Email del usuario",
-                        example="john@example.com"),
+        email: str = Query(description="Email del usuario", example="john@example.com", default=None),
         # Añadimos una descripción y ejemplo de la query age
-        age: int = Query(description="Edad del usuario", example=23)
+        age: int = Query(description="Edad del usuario", example=23, default=None)
         # Añadimos un typo de retorno indicando que esta función retorna una Lista de modelos User
     ) -> List[User]:
         ...EL RESTO DEL CODIGO DE LA FUNCIÓN (NO CAMBIAMOS NADA)
