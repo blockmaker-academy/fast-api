@@ -72,10 +72,15 @@ def create_user(user: User):
 
 @app.get("/users", tags=["Users"])
 def get_all_users(
-    name: str = Query(description="Nombre del usuario", example="John"),
+    name: str = Query(description="Nombre del usuario",
+                      example="John",
+                      default=None),
     email: str = Query(description="Email del usuario",
-                       example="john@example.com"),
-    age: int = Query(description="Edad del usuario", example=23)
+                       example="john@example.com",
+                       default=None),
+    age: int = Query(description="Edad del usuario",
+                     example=23,
+                     default=None)
 ) -> List[User]:
     # Lista para almacenar los usuarios filtrados
     filtered_users = []
