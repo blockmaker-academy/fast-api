@@ -96,7 +96,7 @@ database = {}
     id: int
     name: str
     email: str
-    age: str
+    age: int
   ```
 
 ### 8. Implementar operaciones CRUD:
