@@ -180,3 +180,8 @@ uvicorn main:app --reload
 ### 11. Probar la API:
 
 - Dado que Fast API nos construye directamente una interfaz de swagger podemos ir a la ruta http://localhost:8000/docs y probar la api. Otra opcion es utilizar herramientas como Postman o un navegador web para enviar solicitudes HTTP a las rutas de tu API y verificar su funcionamiento.
+
+## Recursos
+
+- [Creando entornos virtuales en Python](https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python)
+
