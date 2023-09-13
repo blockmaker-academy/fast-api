@@ -25,7 +25,7 @@ El objetivo de este ejercicio es familiarizarse con FastAPI y comprender cómo i
   source venv/bin/activate
   ```
 
-- Si al realizar estos pasos da algun error, consultar esta guia de creación de entornos virtuales de python: ![https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python](https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python)
+- Si al realizar estos pasos da algun error, consultar esta guia de creación de entornos virtuales de python: [https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python](https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python)
 
 ### 2. Instalación de dependencias:
 
