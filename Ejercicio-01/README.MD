@@ -19,10 +19,16 @@ El objetivo de este ejercicio es familiarizarse con FastAPI y comprender cómo i
   python3 -m venv venv
   ```
 
-- Ejecutar el siguiente comando en la misma terminal para activar el entorno virtual y poder ejecutar comandos e instalar librerias:
+- (Mac) Ejecutar el siguiente comando en la misma terminal para activar el entorno virtual y poder ejecutar comandos e instalar librerias:
 
   ```bash
   source venv/bin/activate
+  ```
+
+- (Windows) Ejecutar el siguiente comando en la misma terminal para activar el entorno virtual y poder ejecutar comandos e instalar librerias:
+
+  ```bash
+  source venv/Scripts/activate.bat
   ```
 
 - Si al realizar estos pasos da algun error, consultar esta guia de creación de entornos virtuales de python: [https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python](https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python)
