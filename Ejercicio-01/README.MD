@@ -13,10 +13,21 @@ El objetivo de este ejercicio es familiarizarse con FastAPI y comprender cómo i
 - Asegúrate de tener Python 3.7 o superior instalado en tu sistema.
 - Crea un nuevo entorno virtual utilizando herramientas como venv o conda.
 - Activa el entorno virtual antes de continuar.
-- Para crear el entorno con venv, ejecutar el siguiente comando en la terminal en la carpeta del proyecto:
+- (Mac) Para crear el entorno con venv, ejecutar el siguiente comando en la terminal en la carpeta del proyecto:
 
   ```bash
   python3 -m venv venv
+  ```
+
+- (Windows) Para crear el entorno con venv, ejecutar el siguiente comando en la terminal en la carpeta del proyecto:
+
+  ```bash
+  python -m venv venv
+  ```
+  ó
+
+  ```bash
+  py -m venv venv
   ```
 
 - (Mac) Ejecutar el siguiente comando en la misma terminal para activar el entorno virtual y poder ejecutar comandos e instalar librerias:
