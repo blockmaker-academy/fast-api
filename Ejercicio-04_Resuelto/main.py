@@ -9,8 +9,6 @@ app = FastAPI(
     version="1.0.0"
 )
 
-database = {}
-
 
 class User(BaseModel):
     id: int = Field(description="Id del usuario", example=1)
@@ -19,6 +17,9 @@ class User(BaseModel):
     email: EmailStr = Field(
         description="Email del usuario", example="john@example.com")
     age: int = Field(description="Edad del usuario", example=25)
+
+
+database = {}
 
 
 class CreateUserSuccessfulResponse(BaseModel):

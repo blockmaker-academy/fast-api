@@ -5,15 +5,16 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-database = {}
-
-
 class User(BaseModel):
     id: int
     name: str
     email: str
     age: int
 
+database = {
+    0: User(id=0, name="John", email="john@gmail.com", age=20),
+    1: User(id=1, name="Mike", email="mike@gmail.com", age=30),
+}
 
 @app.get("/")
 # Ruta raiz para comprovar que la api esta activa
