@@ -24,6 +24,7 @@ El objetivo de este ejercicio es familiarizarse con FastAPI y comprender cómo i
   ```bash
   python -m venv venv
   ```
+
   ó
 
   ```bash
@@ -99,13 +100,7 @@ from pydantic import BaseModel
 app = FastAPI()
 ```
 
-### 6. Simulamos una base de datos en memoria
-
-```python
-database = {}
-```
-
-### 7. Definir modelos de datos:
+### 6. Definir modelos de datos:
 
 - Define modelos de datos utilizando la clase BaseModel de Pydantic.
   Por ejemplo, considera el siguiente modelo para una entidad "Usuario":
@@ -116,6 +111,17 @@ database = {}
     name: str
     email: str
     age: int
+  ```
+
+### 7. Simulación de base de datos en memoria:
+
+- Simula una base de datos en memoria y añade 2 usuarios por defecto usando la clase User para facilitar las pruebas de la API
+
+  ```python
+  database = {
+      0: User(id=0, name="John", email="john@gmail.com", age=20),
+      1: User(id=1, name="Mike", email="mike@gmail.com", age=30),
+  }
   ```
 
 ### 8. Implementar operaciones CRUD:
@@ -203,4 +209,3 @@ uvicorn main:app --reload
 ## Recursos
 
 - [Creando entornos virtuales en Python](https://www.programaenpython.com/miscelanea/crear-entornos-virtuales-en-python)
-
