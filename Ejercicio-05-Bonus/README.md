@@ -14,7 +14,9 @@ Asegúrate de tener una cuenta en Deta Space antes de comenzar. Si no tienes una
 
 1. Instala Deta CLI siguiendo las instrucciones en https://docs.deta.sh/docs/cli/install.
 
-2. Asegúrate de que tu proyecto cumpla con la estructura adecuada. Si no estás seguro, puedes revisar el siguiente enlace para obtener más información: https://docs.deta.sh/docs/cli/init.
+2. Asegúrate de que tu proyecto cumpla con la estructura adecuada. Si no estás seguro, puedes revisar los siguientes enlaces para obtener más información:
+    -  [https://deta.space/docs/en/build/quick-starts/python](https://deta.space/docs/en/build/quick-starts/python)
+    -  [https://deta.space/docs/en/build/new-apps](https://deta.space/docs/en/build/new-apps)
 
 ## Paso 2: Despliegue en Deta Space
 
